@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 10vh;
+    padding: 0 30px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav a {
+    margin-left: 1rem;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+.nav button {
+    background: none;
+    margin-left: 1rem;
+
+    border: none;
+    background: red;
+    color: #fff;
+    padding: 7px 15px;
+}
+
+.time {
+    margin-top: 1200px;
+}
+
+.linke {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}
+
+
+
+.user{
+    background: #f1f1f1;
+   margin: 1rem;
+   border: 1px solid #fff;
+
+
+}
+
+.p{
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+}
+.p a{
+    padding: 1rem;
+    color: 333;
+}
+.spann{
+    color: #333;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.bo{
+    font-weight: bold;
+    color: red;
+    background: #fff;
+    border-radius: 50%;
+    padding: 10px !important;
+}
+
+input {
+    padding: 1rem;
+    border: none;
+    width: 50%;
+    margin: 2rem;
+    border-radius: 20px;
+}
+
+.newuser{
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 4rem;
+
+}
+
+.errors{
+    color: red;
+    font-size: 10px;
+    text-align: center;
+}
